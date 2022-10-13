@@ -1,4 +1,4 @@
-# ## 
+## 
 PRUEBA : JULIAN OSWALDO RIOS PIEDRAHITA 
 ============
 Usuario : jrios <br>
@@ -28,7 +28,7 @@ RUTA_APP= http://localhost/
 NOMBRE_SITIO=PRUEBA-JULIAN-RIOS-PHP
 
 ```
-
+![img](https://avatars.githubusercontent.com/u/58895539?v=4)
 
 ## Realizar  una  consulta  que  permita  conocer  cuál  es  el  producto  que  más  stock  tiene.
 ```sql

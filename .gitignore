@@ -1,0 +1,5 @@
+
+app/vendor/
+public/upload/
+vendor/
+.env
