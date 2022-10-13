@@ -10,7 +10,7 @@ Clave : &6um*K4z%b&E
 ## CRUD Productos
 ![img](https://trazosdigitales.tech/productos.png)
 
-## CRUD Productos
+## CRUD Categorias
 ![img](https://trazosdigitales.tech/categorias.png)
 
 ## 
@@ -45,10 +45,21 @@ NOMBRE_SITIO=PRUEBA-JULIAN-RIOS-PHP
 
 ```
 ##  Base de datos
-ubicada dentro de carpeta con el nombre 
+ubicada dentro de carpeta databe se encuentra backup con el siguiente nombre:
 ```env
 dump-pruebadesarrollo-202210131823
 ```
+o Se puede restaurar con los siguientes archivos con el orden : 
+```env
+1-pruebadesarrollo.sql  Encargado de crear la base de datos y las tablas.
+2-prueba-desarrollo_terceros.sql
+3-prueba-desarrollo_productos.sql
+4-prueba-desarrollo_categorias.sql
+5-prueba-desarrollo_pedidos.sql
+6-prueba-desarrollo_pedidos_body.sql
+
+```
+
 ## Realizar  una  consulta  que  permita  conocer  cuál  es  el  producto  que  más  stock  tiene.
 ```sql
 select
