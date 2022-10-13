@@ -3,6 +3,16 @@ PRUEBA : JULIAN OSWALDO RIOS PIEDRAHITA
 ============
 Usuario : jrios <br>
 Clave : &6um*K4z%b&E
+
+## Creación de pedidos
+![img](https://trazosdigitales.tech/sistema-cafeteria.png)
+
+## CRUD Productos
+![img](https://trazosdigitales.tech/productos.png)
+
+## CRUD Productos
+![img](https://trazosdigitales.tech/categorias.png)
+
 ## 
 CONFIGURACIÓN Y REQUERIMIENTOS MINIMOS 
 ============
@@ -11,6 +21,12 @@ CONFIGURACIÓN Y REQUERIMIENTOS MINIMOS
 ```php 
 php 7.1
 postgres 11 
+```
+
+## Configuración variables de entorno
+se debe ubicar dentro de la carpeta del proyecto se debe ejecutar <br>
+```php 
+composer install
 ```
 
 ## Configuración variables de entorno
@@ -28,8 +44,11 @@ RUTA_APP= http://localhost/
 NOMBRE_SITIO=PRUEBA-JULIAN-RIOS-PHP
 
 ```
-![img](https://avatars.githubusercontent.com/u/58895539?v=4)
-
+##  Base de datos
+ubicada dentro de carpeta con el nombre 
+```env
+dump-pruebadesarrollo-202210131823
+```
 ## Realizar  una  consulta  que  permita  conocer  cuál  es  el  producto  que  más  stock  tiene.
 ```sql
 select
